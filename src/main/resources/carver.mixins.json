@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.leathershorts.carver.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemStackMixin",
+    "StonecutterBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
